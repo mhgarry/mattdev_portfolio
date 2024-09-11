@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { StickyCards } from "@/components/StickyCards";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,7 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div id="canvas">
-          <StickyCards /> {children}
+          {" "}
+          <div id="canvas-container">{children}</div>
         </div>
       </body>
     </html>

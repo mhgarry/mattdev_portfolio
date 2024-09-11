@@ -130,3 +130,5 @@ const CARDS: CardType[] = [
     routeTo: "#",
   },
 ];
+
+export default StickyCards;
