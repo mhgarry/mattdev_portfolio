@@ -1,5 +1,7 @@
 import React from "react";
 import ThreeScene from "@/components/ThreeScene";
+import BoxesHero from "@/components/Boxes-Hero";
+
 const Home = () => {
   return (
     //     <div className="relative inset-0 z-100">
@@ -21,7 +23,9 @@ const Home = () => {
           <ThreeScene />
         </div>
       </div>
-      <div className="col-span-2"></div>
+      <div className="col-span-2">
+        <BoxesHero />
+      </div>
     </main>
   );
 };
