@@ -1,7 +1,5 @@
 import React from "react";
-import ThreeScene from "@/components/ThreeScene";
-import BoxesHero from "@/components/Boxes-Hero";
-
+import Hero from "@/components/Hero";
 const Home = () => {
   return (
     //     <div className="relative inset-0 z-100">
@@ -17,14 +15,9 @@ const Home = () => {
     //   </div>
     // </div>
 
-    <main className="grid grid-cols-4 grid-rows-1 gap-4">
-      <div className="relative w-[100vw] h-[100vh]">
-        <div className="absolute inset-0 overflow-hidden">
-          <ThreeScene />
-        </div>
-        <div className="absolute inset-0 z-10">
-          <BoxesHero />
-        </div>
+    <main className="flex flex-col g-background items-center h-[100vh] bg-background">
+      <div className="max-w-7xl py-6">
+        <Hero />
       </div>
     </main>
   );
