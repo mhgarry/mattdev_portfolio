@@ -1,7 +1,5 @@
 import React from "react";
 import ThreeScene from "@/components/ThreeScene";
-import StickyCards from "@/components/StickyCards";
-
 const Home = () => {
   return (
     //     <div className="relative inset-0 z-100">
@@ -23,9 +21,7 @@ const Home = () => {
           <ThreeScene />
         </div>
       </div>
-      <div className="opacity-15  col-span-2">
-        <StickyCards />
-      </div>
+      <div className="col-span-2"></div>
     </main>
   );
 };
