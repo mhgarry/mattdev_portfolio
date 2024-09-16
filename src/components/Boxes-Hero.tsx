@@ -11,12 +11,12 @@ export default function BackgroundBoxesDemo() {
       <Boxes />
       <h1
         className={cn(
-          "md:text-4xl text-xl text-primary-foreground relative z-20"
+          "md:text-6xl text-3xl text-primary-foreground relative z-20"
         )}
       >
         Hi, I'm <span className="text-secondary">Matthew Garry</span>
       </h1>
-      <p className="text-center mt-2 text-primary-foreground relative z-20 text-xl">
+      <p className="text-center mt-2 text-primary-foreground relative z-20 md:text-2xl text-xl">
         I'm a full-stack web developer with a passion for creating beautiful and
         functional web applications.
       </p>

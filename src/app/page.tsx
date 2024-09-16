@@ -19,12 +19,12 @@ const Home = () => {
 
     <main className="grid grid-cols-4 grid-rows-1 gap-4">
       <div className="relative w-[100vw] h-[100vh]">
-        <div className="overflow-hidden  absolute">
+        <div className="absolute inset-0 overflow-hidden">
           <ThreeScene />
         </div>
-      </div>
-      <div className="col-span-2">
-        <BoxesHero />
+        <div className="absolute inset-0 z-10">
+          <BoxesHero />
+        </div>
       </div>
     </main>
   );
